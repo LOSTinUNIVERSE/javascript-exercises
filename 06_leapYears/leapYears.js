@@ -11,7 +11,6 @@ const leapYears = function(year) {
     else {return false}
     }
     
- 
     console.log(leapYears(700))
 // Do not edit below this line
 module.exports = leapYears;
