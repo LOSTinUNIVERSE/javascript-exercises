@@ -16,7 +16,7 @@ let roundedF = Fresult.toFixed(1)
 let numberedF = Number (roundedF)
 return numberedF
 }
-console.log(convertToFahrenheit(73.2));
+console.log(convertToFahrenheit(-10));
 ;
 
 
