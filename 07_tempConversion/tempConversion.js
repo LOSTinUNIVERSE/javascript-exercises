@@ -3,7 +3,7 @@
 const convertToCelsius = function( fahrenheit) {
     let resultOfConvert = (fahrenheit - 32) * (5/9)
     let rounded = resultOfConvert.toFixed(1)
-    let numbered = Number(rounded)
+    let numbered = +rounded
     return numbered
   }
 
@@ -13,7 +13,7 @@ const convertToCelsius = function( fahrenheit) {
 const convertToFahrenheit = function( celsius) {
 let Fresult = (celsius * (9/5) + 32)
 let roundedF = Fresult.toFixed(1)
-let numberedF = Number (roundedF)
+let numberedF = +roundedF
 return numberedF
 }
 console.log(convertToFahrenheit(-10));
